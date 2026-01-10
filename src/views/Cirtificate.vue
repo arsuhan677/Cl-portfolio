@@ -1,9 +1,9 @@
 <script setup>
-import { ref } from "vue"
+import { ref } from 'vue'
 
 const certificates = [
-  "/imagess/cirtificate1.jpg",     // 1st
-  "/imagess/marksheet.jpg", // 2nd
+  '/imagess/cirtificate1.jpg', // 1st
+  '/imagess/marksheet.jpg', // 2nd
 ]
 
 const currentIndex = ref(0)
@@ -36,7 +36,7 @@ const nextCertificate = () => {
         @click="prevCertificate"
         :class="[
           'px-6 py-2 rounded-full shadow transition',
-          currentIndex === 0 ? 'bg-cyan-400 text-white' : 'bg-white text-black'
+          currentIndex === 0 ? 'bg-cyan-400 text-white' : 'bg-white text-black',
         ]"
       >
         Cirtificate
@@ -45,7 +45,7 @@ const nextCertificate = () => {
         @click="nextCertificate"
         :class="[
           'px-6 py-2 rounded-full shadow transition',
-          currentIndex === 1 ? 'bg-cyan-400 text-white' : 'bg-white text-black'
+          currentIndex === 1 ? 'bg-cyan-400 text-white' : 'bg-white text-black',
         ]"
       >
         Marksheet
@@ -53,11 +53,13 @@ const nextCertificate = () => {
     </div>
 
     <!-- Certificate Image -->
-    <div data-aos="fade-zoom-in"
-     data-aos-easing="ease-in-back"
-     data-aos-delay="100"
-     data-aos-offset="0"
-     class="flex justify-center mt-11 xs:-mx-1.5 h-auto">
+    <div
+      data-aos="fade-zoom-in"
+      data-aos-easing="ease-in-back"
+      data-aos-delay="100"
+      data-aos-offset="0"
+      class="flex justify-center mt-11 xs:-mx-1.5 h-auto"
+    >
       <img
         :src="certificates[currentIndex]"
         alt="Certificate"
