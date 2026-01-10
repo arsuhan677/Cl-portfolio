@@ -15,9 +15,8 @@ const showMore = ref(false)
       <div class="container mx-auto flex flex-col lg:flex-row gap-8 px-3 lg:px-0">
         <!-- Card 1 -->
         <div
-          class="relative flex-1 bg-[#1f2937] rounded-xl p-6 pt-14 border border-cyan-400 shadow-[0_0_20px_rgba(0,255,255,0.2)]"
-        >
-          <!-- Logo -->
+          class="relative flex-1 bg-[#1f2937] rounded-xl p-6 pt-14 border border-cyan-400 shadow-[0_0_20px_rgba(0,255,255,0.2)]">
+          <!-- logo -->
           <div
             class="absolute -top-7 left-1/2 -translate-x-1/2 w-16 h-16 border border-cyan-400 rounded-full flex items-center justify-center shadow-lg p-1 bg-white"
           >
