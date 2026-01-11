@@ -38,9 +38,9 @@ const router = createRouter({
       component: () => import('../views/Project.vue'),
     },
     {
-      path: '/cirtificate',
-      name: 'cirtificate',
-      component: () => import('../views/Cirtificate.vue'),
+      path: '/certificate',
+      name: 'certificate',
+      component: () => import('../views/Certificate.vue'),
     },
     {
       path: '/contact',

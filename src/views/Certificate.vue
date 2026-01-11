@@ -39,7 +39,7 @@ const nextCertificate = () => {
           currentIndex === 0 ? 'bg-cyan-400 text-white' : 'bg-white text-black',
         ]"
       >
-        Cirtificate
+        Certificate
       </button>
       <button
         @click="nextCertificate"
