@@ -13,7 +13,7 @@ const showMore = ref(false)
       </h1>
 
       <!-- Cards Wrapper -->
-      <div class="flex flex-col lg:flex-row gap-8">
+      <div class="flex flex-col lg:flex-row lg:gap-8 xs:gap-10">
         <!-- ================= Card 1 ================= -->
         <div
           class="relative flex-1 bg-[#1f2937] rounded-xl p-6 pt-14 border border-cyan-400 shadow-[0_0_20px_rgba(0,255,255,0.2)]"
@@ -52,7 +52,7 @@ const showMore = ref(false)
               their specific requirements and goals.
             </p>
 
-            <ul class="space-y-2 text-gray-300 text-sm md:text-base list-disc pl-5">
+            <ul class="space-y-2 text-gray-300 text-sm md:text-base list-disc lg:pl-5 xs:pl-3.5">
               <li>Implemented MVVM architecture for scalable Flutter applications</li>
               <li><span>Used Provider and GetX for state management across multiple projects</span></li>
               <li>Integrated Firebase Cloud Messaging for push notifications</li>
@@ -100,7 +100,7 @@ const showMore = ref(false)
               Flutter applications.
             </p>
 
-            <ul class="space-y-2 text-gray-300 text-sm md:text-base list-disc pl-5">
+            <ul class="space-y-2 text-gray-300 text-sm md:text-base list-disc lg:pl-5 xs:pl-3.5">
               <li>Implemented real-time audio calls, video calls, and live streaming</li>
               <li>Integrated Socket-based real-time data synchronization</li>
               <li>Followed Clean Architecture for scalable applications</li>
