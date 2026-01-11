@@ -11,7 +11,7 @@
             data-aos-duration="1250"
             class="text-lg md:text-1xl lg:text-2xl font-bold text-white -mt-4 md:mt-0 text-center lg:text-left"
           >
-            Hello, This's Me
+            Hi, This is
           </p>
 
           <h1
@@ -41,10 +41,7 @@
             data-aos-duration="1100"
             class="text-white mb-6 lg:mb-3 lg:px-5 xs:mt-3 xs:text-sm lg:text-base md:text-[16px] xs:-mx-5 md:mt-6 md:text-center lg:text-start"
           >
-            I've been very passionate about computers and programming since my School life. I dream
-            to be an expert software engineer so that I can build professional and useful software
-            that has business value. I am looking for a Junior software engineer position in a
-            reputed software company that can help me to achieve my goal.
+            A passionate <span class="font-bold">Flutter Developer</span> with experience in building scalable and business-focused mobile applications. My programming journey started during my school life, and I am continuously working towards becoming an expert software engineer. I am currently seeking a <span class="font-bold">Mid-Level Software Engineer</span> role in a reputed company where I can contribute and grow professionally.
           </p>
 
           <!-- Social Links -->

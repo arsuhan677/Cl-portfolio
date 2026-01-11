@@ -6,19 +6,21 @@ const showMore = ref(false)
 
 <template>
   <section id="experiance" class="py-16">
-    <div class="max-w-6x mx-auto">
+    <!-- Main Wrapper -->
+    <div class="max-w-6xl mx-auto px-4">
       <h1 class="text-2xl font-bold text-center mb-10">
         <span class="text-cyan-400">Job Experience</span>
       </h1>
 
-      <!-- Cards -->
-      <div class="container mx-auto flex flex-col lg:flex-row gap-8 px-3 lg:px-0">
-        <!-- Card 1 -->
+      <!-- Cards Wrapper -->
+      <div class="flex flex-col lg:flex-row gap-8">
+        <!-- ================= Card 1 ================= -->
         <div
-          class="relative flex-1 bg-[#1f2937] rounded-xl p-6 pt-14 border border-cyan-400 shadow-[0_0_20px_rgba(0,255,255,0.2)]">
-          <!-- logo -->
+          class="relative flex-1 bg-[#1f2937] rounded-xl p-6 pt-14 border border-cyan-400 shadow-[0_0_20px_rgba(0,255,255,0.2)]"
+        >
+          <!-- Logo -->
           <div
-            class="absolute -top-7 left-1/2 -translate-x-1/2 w-16 h-16 border border-cyan-400 rounded-full flex items-center justify-center shadow-lg p-1 bg-white"
+            class="absolute -top-8 left-1/2 -translate-x-1/2 w-16 h-16 border border-cyan-400 rounded-full flex items-center justify-center shadow-lg p-1 bg-white"
           >
             <img
               src="/images/logo.png"
@@ -49,7 +51,8 @@ const showMore = ref(false)
               Worked closely with clients to understand their needs, ensuring that each project met
               their specific requirements and goals.
             </p>
-            <ul class="space-y-2 text-gray-300 text-sm md:text-base">
+
+            <ul class="space-y-2 text-gray-300 text-sm md:text-base list-disc list-inside">
               <li>Implemented MVVM architecture for scalable Flutter applications</li>
               <li>Used Provider and GetX for state management across multiple projects</li>
               <li>Integrated Firebase Cloud Messaging for push notifications</li>
@@ -59,13 +62,13 @@ const showMore = ref(false)
           </div>
         </div>
 
-        <!-- Card 2 -->
+        <!-- ================= Card 2 ================= -->
         <div
           class="relative flex-1 bg-[#1f2937] rounded-xl p-6 pt-14 border border-cyan-400 shadow-[0_0_20px_rgba(0,255,255,0.2)]"
         >
           <!-- Logo -->
           <div
-            class="absolute -top-7 left-1/2 -translate-x-1/2 w-18 h-16 border border-cyan-400 rounded-full flex items-center justify-center shadow-lg p-1 bg-white"
+            class="absolute -top-8 left-1/2 -translate-x-1/2 w-16 h-16 border border-cyan-400 rounded-full flex items-center justify-center shadow-lg p-1 bg-white"
           >
             <img
               src="/images/images.jpg"
@@ -87,7 +90,7 @@ const showMore = ref(false)
               target="_blank"
               class="text-cyan-400 hover:underline"
             >
-              https://www.sparktech.agency/
+              www.sparktech.agency
             </a>
           </p>
 
@@ -96,20 +99,13 @@ const showMore = ref(false)
               Worked with international clients through Upwork and Fiverr to deliver high-quality
               Flutter applications.
             </p>
-            <ul class="space-y-2 text-gray-300 text-sm md:text-base">
-              <li>
-                Implemented real-time features including audio calls, video calls, and live
-                streaming
-              </li>
-              <li>Integrated Socket-based communication for real-time data synchronization</li>
-              <li>
-                Followed Clean Architecture principles to build scalable and maintainable
-                applications
-              </li>
-              <li>
-                Collaborated with a large, cross-functional development team in an agile environment
-              </li>
-              <li>Integrated AI APIs to enhance application features and user experience</li>
+
+            <ul class="space-y-2 text-gray-300 text-sm md:text-base list-disc list-inside">
+              <li>Implemented real-time audio calls, video calls, and live streaming</li>
+              <li>Integrated Socket-based real-time data synchronization</li>
+              <li>Followed Clean Architecture for scalable applications</li>
+              <li>Collaborated with large cross-functional agile teams</li>
+              <li>Integrated AI APIs to enhance app features and UX</li>
             </ul>
           </div>
         </div>
