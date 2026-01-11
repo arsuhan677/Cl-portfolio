@@ -18,7 +18,7 @@ const nextCertificate = () => {
 </script>
 
 <template>
-  <div id="cirtificate" class="flex-col items-center py-10 px-5">
+  <div id="certificate" class="flex-col items-center py-10 px-5">
     <!-- Heading -->
     <section class="text-center">
       <h1 class="lg:text-2xl xs:text-xl font-serif font-bold xs:-mt-6 lg:mt-1">

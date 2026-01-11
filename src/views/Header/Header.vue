@@ -77,10 +77,10 @@ onMounted(() => {
         </li>
         <li>
           <a
-            href="#cirtificate"
+            href="#certificate"
             @click="handleLinkClick"
             class="hover:text-cyan-400 hover:underline"
-            >Cirtificate</a
+            >Certificate</a
           >
         </li>
         <li>
@@ -138,7 +138,7 @@ onMounted(() => {
         <a href="#experiance" @click="handleLinkClick" class="hover:text-cyan-500">Experiance</a>
         <a href="#skill" @click="handleLinkClick" class="hover:text-cyan-500">Skills</a>
         <a href="#project" @click="handleLinkClick" class="hover:text-cyan-500">Projects</a>
-        <a href="#cirtificate" @click="handleLinkClick" class="hover:text-cyan-500">Cirtificate</a>
+        <a href="#certificate" @click="handleLinkClick" class="hover:text-cyan-500">Certificate</a>
         <a href="#education" @click="handleLinkClick" class="hover:text-cyan-500">Education</a>
         <a href="#contact" @click="handleLinkClick" class="hover:text-cyan-500">Contact</a>
       </div>
